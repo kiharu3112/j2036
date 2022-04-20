@@ -159,7 +159,7 @@ Window.load_resources do
 
       elsif stop == 1
         #back
-        Window.draw(0,-22, stage)
+        Window.draw(0,-22, Image[:stage])
         while back_num > num2
           if num2 == 1
             Window.draw(back_x[num2],60,Image[:back])
